@@ -1,6 +1,6 @@
 {
   "name": "circuits",
-  "version": "6.7.0-staging-nov-23-2.0",
+  "version": "6.7.0-staging-dec-3.0",
   "private": true,
   "main": "index.js",
   "license": "GPL-3.0",
