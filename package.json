@@ -1,13 +1,13 @@
 {
   "name": "circuits",
-  "version": "6.7.0-staging-dec-3.0",
+  "version": "6.6.7",
   "private": true,
   "main": "index.js",
   "license": "GPL-3.0",
   "devDependencies": {
     "circom": "^0.5.34",
     "circomlib": "^0.2.4",
-    "dotenv": "^10.0.0",
+    "dotenv": "^8.2.0",
     "eslint": "^7.30.0",
     "fastfile": "^0.0.19",
     "prettier": "^2.3.0",
@@ -17,7 +17,6 @@
     "prepare": "exit 0",
     "test": "exit 0",
     "lint": "exit 0",
-    "format": "prettier --write .",
-    "clean": "exit 0"
+    "format": "prettier --write ."
   }
 }
