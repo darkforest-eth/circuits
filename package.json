@@ -1,6 +1,6 @@
 {
   "name": "circuits",
-  "version": "6.6.9",
+  "version": "6.6.10",
   "private": true,
   "main": "index.js",
   "license": "GPL-3.0",
