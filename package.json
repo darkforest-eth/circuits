@@ -1,6 +1,6 @@
 {
   "name": "circuits",
-  "version": "6.7.10",
+  "version": "6.7.12",
   "private": true,
   "main": "index.js",
   "license": "GPL-3.0",
@@ -14,7 +14,6 @@
     "snarkjs": "^0.3.59"
   },
   "scripts": {
-    "prepare": "exit 0",
     "test": "exit 0",
     "lint": "exit 0",
     "format": "prettier --write .",
