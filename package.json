@@ -16,6 +16,7 @@
   "scripts": {
     "test": "exit 0",
     "lint": "exit 0",
+    "prepare": "exit 0",
     "format": "prettier --write .",
     "clean": "exit 0"
   }
