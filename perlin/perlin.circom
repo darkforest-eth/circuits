@@ -89,6 +89,8 @@ template Modulo(divisor_bits, SQRT_P) {
     rp.max_abs_value <== SQRT_P;
 
     // check that 0 <= remainder < divisor
+    component checkBitsRemainder = Num2Bits(divisor_bits);
+    checkBitsRemainder.in <== remainder;
     component remainderUpper = LessThan(divisor_bits);
     remainderUpper.in[0] <== remainder;
     remainderUpper.in[1] <== divisor;
