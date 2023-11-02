@@ -19,7 +19,7 @@ template Random() {
     mimc.ins[2] <== in[2];
     mimc.k <== KEY;
 
-    component num2Bits = Num2Bits(254);
+    component num2Bits = Num2Bits_strict();
     num2Bits.in <== mimc.outs[0];
     out <== num2Bits.out[3] * 8 + num2Bits.out[2] * 4 + num2Bits.out[1] * 2 + num2Bits.out[0];
 }
